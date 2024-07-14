@@ -1,0 +1,159 @@
+body {
+    background: white;
+}
+
+.main {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+img {
+    border-radius: .5rem;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.hero>* {
+    flex-basis: 100%;
+}
+
+.project-discription {
+    font-size: 1rem;
+    color: var(--accent_text);
+    align-self: center;
+    text-align: start;
+}
+
+.hero-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.item {
+    position: relative;
+}
+
+.img-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.img-hover:hover {
+    opacity: 1;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 8rem;
+    margin-inline: auto;
+    gap: 1rem;
+    width: 80%;
+}
+
+.scl {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.render{
+    width: 40%;
+}
+
+.dwg-grid {   
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:1rem;
+}
+
+.dwg-grid >*{
+    padding-top: 1rem;
+    border-radius: 0;
+}
+
+
+
+footer {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        background-color: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .page-container >* {
+        margin-top: 3rem;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin-top: 0;
+    }
+
+    .project-discription {
+        text-align: center;
+        padding: 0 10% 0 10%;
+        font-size: 1.25em;
+    }
+
+    .hero-img-grid {
+        gap: 1rem;
+    }
+
+    .img-hover {
+        display: none;
+    }
+
+    .img-grid {
+        width: 100%;
+    }
+
+    .scl{
+        gap:3rem;
+    }
+    .render{
+        width: 100%;
+    }
+
+    .dwg-grid{
+        grid-template-columns: 1fr;
+        gap:3rem;
+        width: 100%;
+        img{
+            padding-inline: 5%;
+        }
+
+    }
+
+
+
+
+}

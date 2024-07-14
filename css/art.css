@@ -1,0 +1,23 @@
+body {
+  background: black;
+}
+
+li.art a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15em;
+  text-decoration-color: var(--accent_text);
+}
+
+li.home a {
+  text-decoration: none;
+}
+
+#artwork-container {
+  margin-inline: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  #artwork-container {
+    width: 100vw;
+  }
+}/*# sourceMappingURL=art.css.map */
