@@ -10,7 +10,10 @@ h1 {
 p {
   color: var(--accent_text);
 }
-
+.main{
+width:90%;
+  color: red;
+}
 h1, p {
   margin-bottom: 1.5rem;
 }
