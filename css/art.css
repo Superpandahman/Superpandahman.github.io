@@ -19,6 +19,7 @@ li.home a {
 
 @media only screen and (max-width: 900px) {
   #artwork-container {
+    margin-top: 1rem;
     width: 90vw;
   }
 }/*# sourceMappingURL=art.css.map */
