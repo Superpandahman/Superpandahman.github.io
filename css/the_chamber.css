@@ -154,5 +154,6 @@ footer {
   .single {
     margin-top: var(--sm_gap);
     margin-bottom: 0;
+    width: 100%;
   }
 }/*# sourceMappingURL=the_chamber.css.map */

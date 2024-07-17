@@ -1,5 +1,6 @@
-.main_section {
-  margin: 3.5rem auto 0 auto;
+.main {
+  width: 90%;
+  margin-top: 1rem;
 }
 
 h1 {
@@ -10,10 +11,7 @@ h1 {
 p {
   color: var(--accent_text);
 }
-.main{
-width:90%;
-  color: red;
-}
+
 h1, p {
   margin-bottom: 1.5rem;
 }
@@ -22,4 +20,14 @@ h1, p {
   text-decoration: underline;
   text-decoration-color: var(--accent_text);
   text-decoration-thickness: 0.15em;
+}
+
+.back-to-top {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .back-to-top {
+    display: block;
+  }
 }/*# sourceMappingURL=about.css.map */

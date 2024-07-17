@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: white;
 }
 
 li.art a {
@@ -13,11 +13,12 @@ li.home a {
 }
 
 #artwork-container {
+  margin: auto 0 auto 0;
   margin-inline: auto;
 }
 
 @media only screen and (max-width: 900px) {
   #artwork-container {
-    width: 100vw;
+    width: 90vw;
   }
 }/*# sourceMappingURL=art.css.map */

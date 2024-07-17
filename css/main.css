@@ -140,6 +140,10 @@ header {
   top: calc(50% - 2.5vw);
   left: 5%;
 }
+.img_column .row2-text {
+  top: calc(50% - 2.5vw);
+  right: 5%;
+}
 .img_column .row3-text {
   top: calc(50% - 2.5vw);
   left: 5%;
@@ -167,7 +171,7 @@ header {
   padding: 0.5rem 0 0.5rem 0;
 }
 .back-to-top .back-to-top-bg {
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 0.5rem 1rem 0.5rem;
   color: var(--main_text);
 }
 
@@ -279,16 +283,22 @@ footer {
   }
   .img_column .row1-text {
     left: 5%;
-    top: 2.5rem;
+    top: 2rem;
+    color: var(--accent_text);
+  }
+  .img_column .row2-text {
+    right: 5%;
+    top: 42%;
     color: var(--accent_text);
   }
   .img_column .row3-text {
     left: 5%;
-    top: 1.5rem;
+    top: 0.5rem;
     color: var(--accent_text);
   }
   .back-to-top {
     margin-top: 0;
+    padding-bottom: 1.5rem;
   }
   .footer {
     display: none;
