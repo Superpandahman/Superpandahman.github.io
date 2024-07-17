@@ -7,7 +7,7 @@ let zoff = 0;
 
 function setup() {
   // Set canvas size based on window dimensions
-  createCanvas(windowWidth * .5, windowHeight*.8).parent('artwork-container');
+  createCanvas(windowWidth * .9, windowHeight*.8).parent('artwork-container');
   spacing = min(width, height) / 20; // Adjust the divisor as needed
 }
 
