@@ -134,7 +134,6 @@ header {
   color: var(--main_text);
   transition: all 0.5s ease;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 }
 .img_column .row1-text {
   top: calc(50% - 2.5vw);
@@ -181,6 +180,7 @@ footer {
   width: 100%;
   margin-top: auto;
   padding-top: 1rem;
+  padding-bottom: 0.25rem;
 }
 
 .flex {

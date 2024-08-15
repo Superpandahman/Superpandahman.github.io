@@ -15,11 +15,5 @@ li.home a {
 #artwork-container {
   margin: auto 0 auto 0;
   margin-inline: auto;
-}
-
-@media only screen and (max-width: 900px) {
-  #artwork-container {
-    margin-top: 1rem;
-    width: 90vw;
-  }
+  display: block;
 }/*# sourceMappingURL=art.css.map */

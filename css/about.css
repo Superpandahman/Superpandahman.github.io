@@ -1,5 +1,5 @@
 .main {
-  width: 70%;
+  width: 90%;
   margin-top: 1rem;
 }
 
@@ -27,10 +27,7 @@ h1, p {
 }
 
 @media only screen and (max-width: 900px) {
-  .main{
-    width: 90%;
-  }
   .back-to-top {
-      display: block;
-    }
+    display: block;
+  }
 }/*# sourceMappingURL=about.css.map */
