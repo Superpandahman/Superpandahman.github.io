@@ -55,4 +55,8 @@ a.back {
   .img_block img {
     border-radius: 0;
   }
+
+  a.back{
+    text-align: center;
+  }
 }/*# sourceMappingURL=travel.css.map */
