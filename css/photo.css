@@ -266,9 +266,7 @@ footer {
     display: block;
   }
   li.home a {
-    text-decoration: underline;
-    text-decoration-thickness: 0.15em;
-    text-decoration-color: var(--accent_text);
+    text-decoration: none;
   }
   .main {
     gap: 2rem;
