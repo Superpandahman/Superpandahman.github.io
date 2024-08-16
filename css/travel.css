@@ -54,9 +54,11 @@ a.back {
   }
   .img_block img {
     border-radius: 0;
+    width: 100%;
   }
 
   a.back{
     text-align: center;
+    margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=travel.css.map */
