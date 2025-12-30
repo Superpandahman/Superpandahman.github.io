@@ -11,7 +11,8 @@
 
     <link rel="stylesheet" href="../css/photo.css">
     <link rel="stylesheet" href="../css/travel.css">
-
+    <link rel="stylesheet" href="../css/picture_gallery.css">
+    <link rel="stylesheet" href="../css/lightbox.css" />
 
 
 
@@ -32,42 +33,105 @@
             <nav>
               <ul class="navigation flex">
                 <li class="home"><a href="../">Home</a></li>
-                <li class="archi"><a href="../pages/archi">Architecture</a></li>
-                <li class="art"><a href="../pages/art">Art & Tech</a></li>
-                <li class="photo"><a href="../pages/photo">Photography</a></li>
-                <li class="contact"><a href="../pages/contact">Contact</a></li>
-                <li class="about"><a href="../pages/aboutMei" id="about">About<span>MEI</span></a></li>
+                <li class="archi"><a href="../pages/archi.html">Architecture</a></li>
+                <li class="art"><a href="../pages/art.html">Art & Tech</a></li>
+                <li class="photo"><a href="../pages/photo.html">Photography</a></li>
+                <li class="contact"><a href="../pages/contact.html">Contact</a></li>
+                <li class="about"><a href="../pages/aboutMei.html" id="about">About<span>MEI</span></a></li>
               </ul>
             </nav>
           </div>
         </div>
     </header>
   
-    <div class="main">
+    <!-- <div class="main">
       <div class="img_location">
         <div class="img_block">
-          <a href="/pages/travel_US">
+          <a href="/pages/travel_US.html">
             <div class="title"><h1>USA</h1></div>
             <img src="/images/Photography/Travel/CA/CA-sunset1.jpg" alt="">
           </a>
         </div>
         <div class="img_block">
-          <a href="/pages/travel_China">
+          <a href="/pages/travel_China.html">
             <div class="title"><h1>China</h1></div>
-            <img src="/images/Photography/Travel/Xi An/city_wall_2.jpg" alt="">
+            <img src="/images/Photography/Travel/Xi an/city_wall_2.jpg" alt="">
           </a>
         </div>
-        <a class="back" href="/pages/photo">BACK</a>
+        <a class="back" href="/pages/photo.html">BACK</a>
    
    
 
       </div>
       
   
+    </div> -->
+    <div class="main">
+
+      <div class="gallery">
+        <a  href="/images/Photography/Travel/Xi-An/city_wall_1.jpg" data-lightbox="travel" data-title="Xi'an City Wall 1">
+          <img class="vertical" src="/images/Photography/Travel/Xi-An/city_wall_1.jpg" alt="Xi'an City Wall 1" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Xi-An/city_wall_2.jpg" data-lightbox="travel" data-title="Xi'an City Wall 2">
+          <img src="/images/Photography/Travel/Xi-An/city_wall_2.jpg" alt="Xi'an City Wall 2" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Shanghai/shanghai-CBD-1.jpg" data-lightbox="travel" data-title="Shanghai 1">
+          <img src="/images/Photography/Travel/Shanghai/shanghai-CBD-1.jpg" alt="Shanghai 1" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Shanghai/shanghai-CBD-2.jpg" data-lightbox="travel" data-title="Shanghai 2">
+          <img class="vertical" src="/images/Photography/Travel/Shanghai/shanghai-CBD-2.jpg" alt="Shanghai 2" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/CA/CA-sunset1.jpg" data-lightbox="travel" data-title="California Sunset 1">
+          <img src="/images/Photography/Travel/CA/CA-sunset1.jpg" alt="Grand Canyon 1" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/CA/CA-sunset2.jpg" data-lightbox="travel" data-title="California Sunset 2">
+          <img src="/images/Photography/Travel/CA/CA-sunset2.jpg" alt="California Sunset 2" loading="lazy">
+        </a>
+         <a href="/images/Photography/Travel/CA/CA-sunset3.jpg" data-lightbox="travel" data-title="California Sunset 3">
+          <img src="/images/Photography/Travel/CA/CA-sunset3.jpg" alt="California Sunset 3" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Grand-Canyon1.jpg" data-lightbox="travel" data-title="Grand Canyon 1">
+          <img src="/images/Photography/Travel/Grand-Canyon1.jpg" alt="Grand Canyon 1" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Grand-Canyon2.jpg" data-lightbox="travel" data-title="Grand Canyon 2">
+          <img src="/images/Photography/Travel/Grand-Canyon2.jpg" alt="Grand Canyon 2" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Antelope-Vally1.jpg" data-lightbox="travel" data-title="Antelope Valley">
+          <img src="/images/Photography/Travel/Antelope-Vally1.jpg" alt="Antelope Valley" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Cbus/downtown_art-sign.jpg" data-lightbox="travel" data-title="CCAD">
+          <img src="/images/Photography/Travel/Cbus/downtown_art-sign.jpg" alt="CCAD" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Cbus/Alum-Creek-Lake-1.jpg" data-lightbox="travel" data-title="Alum Creek Lake">
+          <img src="/images/Photography/Travel/Cbus/Alum-Creek-Lake-1.jpg" alt="Alum Creek Lake" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Cbus/Fireworks1.jpg" data-lightbox="travel" data-title="Columbus Fireworks_1">
+          <img class="vertical" src="/images/Photography/Travel/Cbus/Fireworks1.jpg" alt="Columbus Fireworks_1" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Cbus/Fireworks2.jpg" data-lightbox="travel" data-title="Columbus Fireworks_2">
+          <img class="vertical" src="/images/Photography/Travel/Cbus/Fireworks2.jpg" alt="Columbus Fireworks_2" loading="lazy">
+        </a>
+        <a href="/images/Photography/Travel/Cbus/Fireworks3.jpg" data-lightbox="travel" data-title="Columbus Fireworks_3">
+          <img class="vertical" src="/images/Photography/Travel/Cbus/Fireworks3.jpg" alt="Columbus Fireworks_3" loading="lazy">
+        </a>   
+
+
+
+      </div>
+      <a class="back" href="/pages/photo.html">BACK</a>
     </div>
+    <script src="/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 100,
+        'wrapAround': true
+      })
+    </script>
 
 
-    <footer class="footer">Copyright © Xiaoshuomei.com 2019.</footer>
+
+
+    <footer class="footer">Copyright © Xiaoshuomei.com <script>document.write(new Date().getFullYear())</script>.</footer>
 
 </body>
 
