@@ -1,85 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eric Xiaoshuo MEI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/photo.css" />
+  </head>
 
-    <!-- <link rel="stylesheet" href="../css/main.css"> -->
-    <link rel="stylesheet" href="../css/photo.css">
-
-
-
-
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="container">
-          <div class="nav-bar">
-            <div class="logo">
-              <a href="../"><span>Eric</span> Xiaoshuo <span>MEI</span></a>
-            </div>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-lable ">
-              <span></span>
-            </label>
-  
-            <nav>
-              <ul class="navigation flex">
-                <li class="home"><a href="../">Home</a></li>
-                <li class="archi"><a href="../pages/archi.html">Architecture</a></li>
-                <li class="art"><a href="../pages/art.html">Art & Tech</a></li>
-                <li class="photo"><a href="../pages/photo.html">Photography</a></li>
-                <li class="contact"><a href="../pages/contact.html">Contact</a></li>
-                <li class="about"><a href="../pages/aboutMei.html" id="about">About<span>MEI</span></a></li>
-              </ul>
-            </nav>
+      <div class="container">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="../"><span>Eric</span> Xiaoshuo <span>MEI</span></a>
           </div>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="nav-toggle-lable">
+            <span></span>
+          </label>
+
+          <nav>
+            <ul class="navigation flex">
+              <li class="home"><a href="../">Home</a></li>
+              <li class="archi"><a href="../pages/archi.html">Architecture</a></li>
+              <li class="art"><a href="../pages/art.html">Art & Tech</a></li>
+              <li class="photo"><a href="../pages/photo.html">Photography</a></li>
+              <li class="contact"><a href="../pages/contact.html">Contact</a></li>
+              <li class="about"><a href="../pages/aboutMei.html" id="about">About<span>MEI</span></a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
-  
-    <div class="main">
-      <div class="img_column">
-              <a href="/pages/portrait.html">
-              <img class="banner" src="/images/Photography/Portrait/MP1.jpg" alt="Portrait Photography" loading="eager">
-              <img class="banner_hover" src="/images/Photography/Portrait/MP2.jpg" alt="Portrait Photography" loading="eager">
-              <div class="category">
-              <h1>Portrait</h1>  
-              </div>
-              </a>
+
+    <main class="main">
+      <div class="img_column square">
+        <a href="/pages/event.html">
+          <div class="image_box">
+            <img class="banner" src="/images/Photography/Events/Baby N/Baby_N_01.webp" alt="Event" loading="eager" />
+            <img class="banner_hover" src="/images/Photography/Events/Baby N/Baby_N_13.webp" alt="Event Photography" loading="eager" />
+          </div>
+          <div class="category">
+            <h1>Event</h1>
+          </div>
+        </a>
       </div>
 
-      <div class="img_column">
+      <div class="img_column square">
+        <a href="/pages/portrait.html">
+          <div class="image_box">
+            <img class="banner" src="/images/Photography/Portrait/MP1.jpg" alt="Portrait Photography" loading="eager" />
+            <img class="banner_hover" src="/images/Photography/Portrait/MP2.jpg" alt="Portrait Photography" loading="eager" />
+          </div>
+          <div class="category">
+            <h1>Portrait</h1>
+          </div>
+        </a>
+      </div>
+
+      <div class="img_column square">
         <a href="/pages/photo_travel.html">
-          <img class="banner" src="/images/Photography/Travel/CA/CA-sunset1.jpg" alt="Travel Photography" loading="eager">
-          <img class="banner_hover" src="/images/Photography/Travel/Xi-An/city_wall_2.jpg" alt="Travel Photography" loading="eager">
+          <div class="image_box">
+            <img class="banner" src="/images/Photography/Travel/CA/CA-sunset1.jpg" alt="Travel Photography" loading="eager" />
+            <img class="banner_hover" src="/images/Photography/Travel/Xi-An/city_wall_2.jpg" alt="Travel Photography" loading="eager" />
+          </div>
           <div class="category">
-          <h1>Travel</h1>  
+            <h1>Travel</h1>
           </div>
         </a>
       </div>
-  
-
-  
-      <!-- <div class="img_column">
-        <a href="/pages/photo.html">
-          <img class="banner" src="/images/Photography/Travel/CA/CA-sunset1.jpg" alt="">
-          <img class="banner_hover" src="/images/photo_banner_hover.png" alt="">
-          <div class="category">
-          <h1>Still Life</h1>  
-          </div>
-        </a>
-      </div> -->
-    </div>
-
+    </main>
 
     <footer class="footer">Copyright © Xiaoshuomei.com <script>document.write(new Date().getFullYear())</script>.</footer>
-
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Photography — Eric Xiaoshuo MEI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/photo.css" />
+    <link rel="stylesheet" href="../css/picture_gallery.css" />
+    <link rel="stylesheet" href="../css/lightbox.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="../"><span>Eric</span> Xiaoshuo <span>MEI</span></a>
+          </div>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="nav-toggle-lable">
+            <span></span>
+          </label>
+
+          <nav>
+            <ul class="navigation flex">
+              <li class="home"><a href="../">Home</a></li>
+              <li class="archi"><a href="../pages/archi.html">Architecture</a></li>
+              <li class="art"><a href="../pages/art.html">Art & Tech</a></li>
+              <li class="photo"><a href="../pages/photo.html">Photography</a></li>
+              <li class="contact"><a href="../pages/contact.html">Contact</a></li>
+              <li class="about"><a href="../pages/aboutMei.html" id="about">About<span>MEI</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="location">
+        <div>
+            <h1>Event</h1>
+        </div>
+        <a class="back" href="/pages/photo.html">BACK</a>
+      </div>
+      
+
+      <!-- Gallery of event thumbnails. Each thumbnail is the first image in a lightbox group.
+           To add a new event: duplicate one .gallery-item block, change the data-lightbox group name
+           (e.g. "event-3"), set the cover image href/src, then add additional <a> links (can be hidden)
+           with the same data-lightbox value for the rest of that event's images. -->
+
+      <div class="gallery">
+
+
+        <!-- Placeholder Event A: replace paths with your event folder images and duplicate hidden links -->
+        <div class="gallery-item">
+          <a href="/pages/event-jk-wedding.html">
+            <div class="thumb">
+              <img class="vertical" src="/images/Photography/Events/JK Wedding/JK Wedding_9.webp" alt="JK Wedding" loading="lazy" />
+            </div>
+          </a>
+          <div class="caption">
+            <h3>JK Wedding</h3>
+            <time datetime="2024-06">July 2025</time>
+          </div>
+        </div>
+
+        <!-- Placeholder Event B: replace with actual event images -->
+        <div class="gallery-item">
+          <a href="/pages/event-sh-wedding.html">
+            <div class="thumb">
+              <img class="vertical" src="/images/Photography/Events/SH Wedding/SH Wedding_8.webp" alt="SH Wedding" loading="lazy" />
+            </div>
+          </a>
+          <div class="caption">
+            <h3>SH Wedding</h3>
+            <time datetime="2025-01">July 2025</time>
+          </div>
+        </div>
+
+        <!-- QCB Wedding -->
+        <div class="gallery-item">
+          <a href="/pages/event-qcb-wedding.html">
+            <div class="thumb">
+              <img class="vertical" src="/images/Photography/Events/QCB Wedding/QCB Wedding_1.webp" alt="QCB Wedding" loading="lazy" />
+            </div>
+          </a>
+          <div class="caption">
+            <h3>QCB Wedding</h3>
+            <time datetime="2025-06">July 2025</time>
+          </div>
+        </div>
+
+        <!-- Baby N event: multiple images in the same lightbox group -->
+        <div class="gallery-item">
+          <a href="/pages/event-baby-n.html">
+            <div class="thumb">
+              <img class="vertical" src="/images/Photography/Events/Baby N/Baby_N_01.webp" alt="Baby N" loading="lazy" />
+            </div>
+          </a>
+          <div class="caption">
+            <h3>Baby N</h3>
+            <time datetime="2025-01">Jan 2025</time>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+    <script src="/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 100,
+        wrapAround: true,
+      });
+    </script>
+
+    <footer class="footer">Copyright © Xiaoshuomei.com <script>document.write(new Date().getFullYear())</script>.</footer>
+  </body>
+</html>
